@@ -109,7 +109,7 @@ const VirtualTryOn = () => {
                   {["Tops", "Bottoms", "Dresses", "Outerwear", "Shoes", "Accessories"].map((cat) => (
                     <button
                       key={cat}
-                      className="p-4 rounded-xl bg-card border border-border text-sm font-medium text-foreground hover:border-sand transition-colors text-center liquid-hover"
+                      className="p-4 rounded-xl bg-card border border-border text-sm font-medium text-foreground hover:border-accent transition-colors text-center liquid-hover"
                     >
                       {cat}
                     </button>

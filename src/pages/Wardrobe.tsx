@@ -98,7 +98,7 @@ const Wardrobe = () => {
                 </div>
                 <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
                   <button className="w-9 h-9 rounded-full glass flex items-center justify-center">
-                    <Heart className={`w-4 h-4 ${item.liked ? "fill-terracotta text-terracotta" : "text-foreground"}`} />
+                    <Heart className={`w-4 h-4 ${item.liked ? "fill-primary text-primary" : "text-foreground"}`} />
                   </button>
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-foreground/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">

@@ -141,7 +141,7 @@ const StyleQuiz = () => {
                       onClick={() => setSelectedTone(tone.label)}
                       className={`flex flex-col items-center gap-3 p-4 rounded-2xl border-2 transition-all liquid-hover ${
                         selectedTone === tone.label
-                          ? "border-primary bg-card"
+                          ? "border-primary bg-card shadow-md"
                           : "border-transparent hover:border-border"
                       }`}
                     >
@@ -165,7 +165,7 @@ const StyleQuiz = () => {
                       className={`relative p-5 rounded-2xl border-2 transition-all liquid-hover text-center ${
                         selectedStyles.includes(s.label)
                           ? "border-primary bg-card"
-                          : "border-border hover:border-sand"
+                        : "border-border hover:border-accent"
                       }`}
                     >
                       {selectedStyles.includes(s.label) && (
@@ -190,7 +190,7 @@ const StyleQuiz = () => {
                       className={`relative p-5 rounded-2xl border-2 transition-all liquid-hover text-center ${
                         selectedOccasions.includes(o.label)
                           ? "border-primary bg-card"
-                          : "border-border hover:border-sand"
+                          : "border-border hover:border-accent"
                       }`}
                     >
                       {selectedOccasions.includes(o.label) && (
