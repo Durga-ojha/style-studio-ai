@@ -38,7 +38,7 @@ const Scanner = () => {
             >
               <button
                 onClick={() => setUploaded(true)}
-                className="w-full aspect-[16/9] rounded-3xl border-2 border-dashed border-border hover:border-sand bg-card flex flex-col items-center justify-center gap-4 transition-all liquid-hover group cursor-pointer"
+                className="w-full aspect-[16/9] rounded-3xl border-2 border-dashed border-border hover:border-accent bg-card flex flex-col items-center justify-center gap-4 transition-all liquid-hover group cursor-pointer"
               >
                 <div className="w-16 h-16 rounded-2xl bg-secondary flex items-center justify-center group-hover:bg-accent transition-colors">
                   <Upload className="w-7 h-7 text-foreground" />
@@ -65,7 +65,7 @@ const Scanner = () => {
                   <p className="text-sm text-muted-foreground">Found 16 styling combinations</p>
                 </div>
                 <div className="ml-auto flex items-center gap-2 text-sm text-muted-foreground">
-                  <Sparkles className="w-4 h-4 text-terracotta" />
+                  <Sparkles className="w-4 h-4 text-primary" />
                   AI Confidence: 94%
                 </div>
               </div>

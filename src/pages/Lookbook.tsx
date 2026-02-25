@@ -25,7 +25,7 @@ const Lookbook = () => {
   return (
     <div className="min-h-screen bg-background pt-20">
       {/* Hero */}
-      <section className="py-16 lg:py-24 bg-wheat-gradient">
+      <section className="py-16 lg:py-24 bg-champagne-gradient">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <span className="text-xs font-medium tracking-[0.2em] uppercase text-muted-foreground">
